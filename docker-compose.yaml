@@ -1,0 +1,6 @@
+version: "3"
+services:
+  nordvpn:
+    build:
+      context: ./nordvpn
+    privileged: true
